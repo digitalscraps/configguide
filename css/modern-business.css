@@ -22,7 +22,12 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
-
+/* OU Image Department Heading */
+  ouheading img{
+    height:auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
 /* Home Page Carousel */
 
 header.carousel {
