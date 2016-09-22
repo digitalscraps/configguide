@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="/css/modern-business.css" rel="stylesheet">
+    <link href="/css/simple-sidebar.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -61,11 +62,12 @@
     </nav>
 
 
-    <!-- OU image div -->
-      <div class="container-fluid">
+    <!-- OU image Header -->
+    <!-- Need to find a way to integrate this with carousel/hero -->
+      <header class="container-fluid">
         <section class = "ouheading">
           <img></img>
-        </section>
+        </header>
       </div>
 
 
@@ -110,10 +112,60 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" id="wrapper">
+
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper">
+              <ul class="sidebar-nav">
+                  <li class="sidebar-brand">
+                      <a href="#">
+                          Start Bootstrap
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#">Dashboard</a>
+                  </li>
+                  <li>
+                      <a href="#">Shortcuts</a>
+                  </li>
+                  <li>
+                      <a href="#">Overview</a>
+                  </li>
+                  <li>
+                      <a href="#">Events</a>
+                  </li>
+                  <li>
+                      <a href="#">About</a>
+                  </li>
+                  <li>
+                      <a href="#">Services</a>
+                  </li>
+                  <li>
+                      <a href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /#sidebar-wrapper -->
+
+          <!-- Page Content -->
+          <div id="page-content-wrapper">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <h1>Simple Sidebar</h1>
+                          <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                          <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                          <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                      </div>
+                  </div>
+
+
+
+
+      <!-- /#wrapper -->
 
         <!-- Marketing Icons Section -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
                     Welcome to Modern Business
@@ -156,7 +208,7 @@
         <!-- /.row -->
 
         <!-- Portfolio Section -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Portfolio Heading</h2>
             </div>
@@ -191,10 +243,10 @@
                 </a>
             </div>
         </div>
-        <!-- /.row -->
+          /.row -->
 
         <!-- Features Section -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Modern Business Features</h2>
             </div>
@@ -214,13 +266,13 @@
             <div class="col-md-6">
                 <img class="img-responsive" src="http://placehold.it/700x450" alt="">
             </div>
-        </div>
+        </div>-->
         <!-- /.row -->
 
-        <hr>
+        <!--<hr>-->
 
         <!-- Call to Action Section -->
-        <div class="well">
+        <!--<div class="well">
             <div class="row">
                 <div class="col-md-8">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
@@ -229,9 +281,9 @@
                     <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
                 </div>
             </div>
-        </div>
+        </div>-->
 
-        <hr>
+        <!--<hr>-->
 
         <!-- Footer -->
         <footer>
@@ -241,9 +293,8 @@
                 </div>
             </div>
         </footer>
-
-    </div>
-    <!-- /.container -->
+    </div> <!-- /#page-content-wrapper -->
+  </div> <!-- /.container -->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -251,11 +302,16 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
+    <!-- Script to Activate the Carousel and Menu Toggle-->
     <script>
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
+
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
     </script>
 
 </body>
