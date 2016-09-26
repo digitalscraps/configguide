@@ -14,6 +14,7 @@
         <link href="/css/simple-sidebar.css" rel="stylesheet">
         <!-- Custom Fonts -->
         <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -22,13 +23,13 @@
     <![endif]-->
     </head>
     <body>
-        <!--Header-->
-        <!--Start with Header for easy access to search bar, social media, and university home page.
-        The department logo is an item within the header so naviagation bar can slide on top.-->
+        <!--Header with global cms navigation->
+        Start with Header for easy access to search bar, social media, and university home page.-->
+
             <header class="container-fluid">
             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container" data-pg-collapsed>
-                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- logotype and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
@@ -41,14 +42,20 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
+                          <li>
+                              <a href="#">
+                                <span class="fa fa-home" data-toggle="tooltip" data-placement="bottom" title="OU Homepage"><h5>Home</h5></span>
+                              </a>
+                          </li>
                             <li>
-                                <a href="about.html">Search</a>
+                                <a href="#">
+                                  <span class="fa fa-search" data-toggle="tooltip" data-placement="bottom" title="Search OU"><h5>Search</h5></span>
+                                </a>
                             </li>
                             <li>
-                                <a href="services.html">Help</a>
-                            </li>
-                            <li>
-                                <a href="services.html">Contact</a>
+                                <a href="#">
+                                  <span class="fa fa-share-alt" data-toggle="tooltip" data-placement="bottom" title="OU Social Media"><h5>Connect</h5></span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -273,14 +280,18 @@
                 <script src="js/bootstrap.min.js"></script>
                 <!-- Script to Activate the Carousel and Menu Toggle-->
                 <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+                $('.carousel').carousel({
+                  interval: 5000 //changes the speed
+                })
 
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
+                $("#menu-toggle").click(function(e) {
+                  e.preventDefault();
+                  $("#wrapper").toggleClass("toggled");
+                });
+
+                $(document).ready(function() {
+                  $('[data-toggle="tooltip"]').tooltip();
+                });
     </script>
     </body>
 </html>
