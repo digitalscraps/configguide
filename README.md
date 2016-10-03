@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # University of Oklahoma department of Web Communication's CMS Training Guide
 
 ###Template is [Modern Business](http://startbootstrap.com/template-overviews/modern-business/) 
@@ -18,4 +17,3 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-modern-business/blob/gh-pages/LICENSE) license.
 =======
 # ouweb-config-guide
->>>>>>> c0d3b1d69a9ee7710e66b829c1258b2175f626f0
