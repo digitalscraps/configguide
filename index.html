@@ -48,48 +48,20 @@
               </div><!-- /.container -->
           </nav>
               <nav class="navbar navbar-inverse navbar-static-top navbar-stack" style="background-color: #5f0202;"role="navigation">
-                  <div class="container" data-pg-collapsed>
-                      <!-- logo and toggle get grouped for better mobile display -->
+                  <div class="container">
+                      <!-- logo and top-level nav get grouped for better mobile display -->
                       <div class="navbar-header">
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                          </button
                           <a class="navbar-brand navbar-right" href="#">
                             <img src="images/OU_logo_r48x48.png" alt="OU Logo">
                           </a>
                       </div>
                       <!-- Collect the nav links, forms, and other content for toggling -->
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-                          <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#">Introduction</a>
-                            </li>
-                            <li>
-                                <a href="#">CMS Basics</a>
-                            </li>
-                              <li>
-                                  <a href="#">Content</a>
-                              </li>
-                              <li>
-                                <a href="#">Contact</a>
-                              </li>
-                          </ul>
-                      </div>
-                      <!-- /.navbar-collapse -->
-                  </div>
-                  <!-- /.container -->
-              </nav>
-            </div>
-            </header>
 
-          <header class="container-fluid">
+                  </div><!-- /.container -->
+              </nav><!-- /.navbar-collapse -->
 
-          </header>
 
-            <!-- Header Carousel -->
+        <!-- Header Carousel -->
             <header id="myCarousel" class="carousel slide">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -123,56 +95,146 @@
                 <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
             </header>
 
+<!--Page CONTENT STARTS HERE-->
 
+<!--Page Title and Toggle menu-->
             <!-- Page Content -->
-            <div class="container" id="wrapper">
-                <!-- Sidebar -->
-                <div id="sidebar-wrapper">
-                    <ul class="sidebar-nav">
-                        <li>
-                            <a href="#">Introduction</a>
-                        </li>
-                        <li>
-                            <a href="#">Setup</a>
-                        </li>
-                        <li>
-                            <a href="#">Basics</a>
-                        </li>
-                        <li>
-                            <a href="#">Digital Asset Manager</a>
-                        </li>
-                        <li>
-                            <a href="#">Content</a>
-                        </li>
-                        <li>
-                            <a href="#">Embedded Content</a>
-                        </li>
-                        <li>
-                            <a href="#">Style</a>
-                        </li>
-                        <li>
-                            <a href="#">Structure</a>
-                        </li>
-                        <li>
-                            <a href="#">Upkeep</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /#sidebar-wrapper -->
-                <!-- Page Content -->
-                <div id="page-content-wrapper">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h1>Features</h1>
-                                <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                                <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
+            <nav id="navbar-white" class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+      <button href="#menu-toggle" class="slidebar-toggle" id="menu-toggle">
+        <span class="sr-only">Toggle sidebar</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span><a class="navbar-brand" href="/">Department Title</a></span>
+    </div>
 
+    <div class="navbar-collapse collapse">
+
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/">Introduction</a></li>
+            <li><a href="/">Basics</a></li>
+            <li><a href="/">Content</a></li>
+            <li><a href="/">Tutorials</a></li>
+            <li><a href="/">Catering</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basics <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/">Books</a></li>
+            <li><a href="/">Leaflets</a></li>
+            <li><a href="/">CDs</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Merchandise</li>
+            <li><a href="/">Towels</a></li>
+            <li><a href="/">Flags</a></li>
+            <li><a href="/">Coffee Mugs</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Content<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-plus"></i> Account</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-comment"></i> Notifications</a></li>
+          </ul>
+        </li>
+
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/">Introduction</a></li>
+            <li><a href="/">Basics</a></li>
+            <li><a href="/">Content</a></li>
+            <li><a href="/">Tutorials</a></li>
+            <li><a href="/">Catering</a></li>
+          </ul>
+        </li>
+
+      </ul></div>
+    </div>
+  </nav>
+
+
+
+  <div id="wrapper">
+        <!-- Sidebar -->
+	<div id="slidebar-white" class="slidebar-nav">
+      <nav id="navbar-white" class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar-nav">
+          <li class="sidebar-form">
+            <form class="input-group" border="0" id="af" name="af" role="search" action="/archive.php">
+                <input type="text" class="form-control" id="aa" name="aa" placeholder="Search">
+              <span class="input-group-btn">
+                <button type="submit" class="btn btn-md" id="as" name="as" value="Go"><i class="glyphicon glyphicon-search"></i></button>
+              </span>
+            </form>
+          </li>
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Introduction <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/">Carwashes</a></li>
+            <li><a href="/">Lapdances</a></li>
+            <li><a href="/">Musicals</a></li>
+            <li><a href="/">Tutorials</a></li>
+            <li><a href="/">Catering</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Basics<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/">Books</a></li>
+            <li><a href="/">Leaflets</a></li>
+            <li><a href="/">CDs</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Merchandise</li>
+            <li><a href="/">Towels</a></li>
+            <li><a href="/">Flags</a></li>
+            <li><a href="/">Coffee Mugs</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Content<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/"><i class="glyphicon glyphicon-user"></i> Profile</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-plus"></i> Account</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
+            <li><a href="/"><i class="glyphicon glyphicon-comment"></i> Notifications</a></li>
+          </ul>
+        </li>
+        </ul>
+      </nav><!--/.navbar -->
+    </div><!--/.sidebar-nav -->
+
+
+    <!-- Page Content -->
+    <main id="page-wrapper6">
+      <div class="container-fluid">
+        <div class="col-md-6">
+        <h3>Header 1 AND TOP CONTENT</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus venenatis ante ac vestibulum. Curabitur congue, leo non elementum interdum, sapien erat iaculis felis, ut vulputate turpis mauris molestie lorem. Integer urna libero, pharetra sit amet massa in, blandit tempor eros. Nulla risus arcu, lacinia vel felis quis, varius gravida erat. Duis molestie, dolor et porttitor iaculis, mi dui aliquet justo, at mattis nisi leo vel nunc. In dapibus est aliquet, auctor nisl a, interdum felis. Donec sed ligula in ligula hendrerit congue non tristique risus. Morbi sollicitudin ligula non erat placerat, non vulputate nibh rutrum. Phasellus consectetur nibh sit amet ipsum sagittis, et lobortis ligula sollicitudin. Nunc ac diam non diam lacinia bibendum lacinia in magna. Morbi non ante eget ante aliquam porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Vestibulum faucibus turpis sit amet mauris accumsan volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent condimentum arcu ut erat commodo, eu porta mauris hendrerit.</p>
+        </div>
+
+        <div class="col-md-6">
+        <h3>It is important to keep all the text on the main page within the page-wrapper</h3>
+        </div>
 
 
                         <!--<hr>-->
@@ -210,6 +272,8 @@
                 $('.navbar-lower').affix({
                   offset: {top: 50}
                 });
-    </script>
+
+                $("#menu-toggle").click(function(e){e.preventDefault();$("#wrapper").toggleClass("toggled");});
+                </script>
     </body>
 </html>
