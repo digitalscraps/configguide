@@ -1,0 +1,47 @@
+## Navigation to the Author Interface
+
+### Login and VPM
+In order to access the CMS, you must be using the most recent version of Firefox or chrome. You also need to log-on while on campus if you are on the OU network. In orders to access it from an off-campus location, you will need to download the Norman campus and log into the VPN before you log in to CQ. 
+ 
+To log-in vist <http://cq5author.ou.edu>, and use your 4x4 and password to enter the system.
+sometimes when you log in to CQ particularly if you're a first time user where you do not log
+you may get an error saying that your username and password don't match. Just click sign-in again and the CMS will reload.
+
+
+###New Website Setup
+Once logged in, the CQ admin interface loads, and a list of websites appear in a list on the side navigation bar. All websites within the CMS system are included in this list, including your new website. The admin interface is the where you will always start when you login, and is where you navigate to your websites and child pages. 
+
+####Find Your Website
+#####Parent-Child Structure
+All the websites in the CQ5 system are listed in alphabetical order, and follow a parent-child hiearchy. 
+
+*You can quickly find your website by using the control or command F keyboard shortcut.*
+
+![Navigation Bar-Parent Pages](images/screenshots/findyoursite-1 "#####Parent pages are usually the home site of a department or organization.")
+
+When you click the parent website or use the expand button in the sidebar more titles appear in the main interface of CQ, as well as in the navigation bar. These represent child pages, which hold information on seperate pages besides the homepage. Children maintain their relationship to each other through their parents. THe home page of a website is found in the child pages. Editors upload and design content for child pages.
+
+![Navigation Bar-Child Pages](images/screenshots/findyoursite-2-nest "#####Child pages are used for the home page, as well as secondary pages such as About, Policies, Contact, etc.")
+
+**The next section will outline how to navigate the editor interface, and how to create child pages and add components for content**
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+

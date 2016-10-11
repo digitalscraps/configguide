@@ -1,0 +1,10 @@
+## Introduction
+
+###What is a CMS?
+CMS is short for Content Management System, and allows users without technical knowledge to manage, update and maintain a website. The system is called Adobe Experience Manager (AEM) and is managed by Web Communications, Marketing and New Media. At Webcomm we refer to the CMS by the name CQ5.
+
+There are many ways to create a website under the ou.edu domain, but all sites must be built following the OU Web Guidelines.
+
+
+###In this guide can can find support for project commencement, training, and upkeep.
+The guide is structured in an ordered to walk new users through the entire process from start to finish. Refer to the navigation bar to find specific topics.  
