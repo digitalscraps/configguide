@@ -1,0 +1,13 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+.hero {
+	height: 335px;
+	background: url('#{$path--rel}/bizzell-header.jpg'),
+	            linear-gradient(red, white);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: em(50px);
+}
