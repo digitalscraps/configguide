@@ -16,7 +16,7 @@
 title: Web Comm Training Guide
 email: cmshelp@ou.edu
 description: Helpful information about the CMS for OU webcomm
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/configguide" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 gems: [jekyll-paginate]
 paginate: 2
