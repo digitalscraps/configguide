@@ -9,7 +9,7 @@
     
     Hi,
 
-    We have a website that needs to go live at 3 p.m. today 01/08/2016. Details are below. Please contact me if you have      questions and please advise once complete this afternoon.W
+    We have a website that needs to go live at 3 p.m. today 01/08/2016. Details are below. Please contact me if you have      questions and please advise once complete this afternoon.
     
     New Content Switch:
       1. ou.edu/union
