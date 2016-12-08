@@ -2,7 +2,7 @@
 
 ### Write to dns@ou.edu and  
 
-1. Add an new site to www.ou.edu/
+###1. Add an new site to www.ou.edu/
   In order to make a new site go live under the OU DNS the added address needs to be allowed into the CMS. 
   For example www.ou.edu/union and all content within the site need to be admitted into the CMS server. 
   To request to IT for a content switch
