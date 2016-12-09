@@ -11,6 +11,6 @@
     b. ![Screenshot of IT request list]
     (/img/internal/list.png)
     c. ![Screenshot of request/remove]
-    (/images/internal/)
+    (/img/internal/)
     d. ![Screenshot of Modify list]
-      (/images/internal/list_01.png)
+      (/img/internal/list_01.png)
