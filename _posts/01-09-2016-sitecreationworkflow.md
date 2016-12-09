@@ -11,4 +11,6 @@
     b. ![Screenshot of IT request list]
     (/octodex.github.com/images/yaktocat.png)
     c. ![Screenshot of request/remove]
-    (/ )
+    (/images/internal/)
+    d. ![Screenshot of Modify list]
+      (/images/internal/)
