@@ -7,7 +7,7 @@
   
 ##Create a Group in CMS
   1. Create a new group with request/remove list or add users to an existing group with modify list.
-    a. visit this site [http://itscnorman.ou.edu/portfolio/ad-distribution-lists/]
+    a. visit this site [/]
     b. ![Screenshot of IT request list]
     (/img/internal/list.png)
     c. ![Screenshot of request/remove]
