@@ -10,3 +10,5 @@
     a. visit this site [http://itscnorman.ou.edu/portfolio/ad-distribution-lists/]
     b. ![Screenshot of IT request list]
     (/octodex.github.com/images/yaktocat.png)
+    c. ![Screenshot of request/remove]
+    (/ )
